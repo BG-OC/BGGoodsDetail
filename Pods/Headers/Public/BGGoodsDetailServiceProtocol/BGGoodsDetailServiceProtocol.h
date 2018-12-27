@@ -1,0 +1,1 @@
+../../../BGGoodsDetailServiceProtocol/BGGoodsDetailServiceProtocol/BGGoodsDetailServiceProtocol/BGGoodsDetailServiceProtocol.h

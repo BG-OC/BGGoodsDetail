@@ -1,0 +1,20 @@
+PODS:
+  - BGGoodsDetailServiceProtocol (0.0.1)
+  - BGProtocolManager (0.0.1)
+
+DEPENDENCIES:
+  - BGGoodsDetailServiceProtocol
+  - BGProtocolManager
+
+SPEC REPOS:
+  https://github.com/BG-OC/BGRepositories.git:
+    - BGGoodsDetailServiceProtocol
+    - BGProtocolManager
+
+SPEC CHECKSUMS:
+  BGGoodsDetailServiceProtocol: e343e51723a9749b2ba3a5c718787751f38cfa30
+  BGProtocolManager: d518b657d0ff76c64dc0f8090aee66ecba7952d8
+
+PODFILE CHECKSUM: 64ddc51f82ddcf4f863aef4b3487da741e40d32b
+
+COCOAPODS: 1.5.3
