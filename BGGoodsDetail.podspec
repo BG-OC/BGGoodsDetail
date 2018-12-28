@@ -137,6 +137,8 @@ Pod::Spec.new do |s|
   s.subspec 'Source' do |source|
       source.source_files = 'BGGoodsDetail/BGGoodsDetail/Source/*.{h,m}'
       source.framework  = "UIKit"
+      source.dependency 'BGProtocolManager'
+      source.dependency 'BGConfirmOrderServiceProtocol'
   end
 
   s.subspec 'ServiceProvider' do |serviceProvider|
