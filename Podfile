@@ -8,8 +8,8 @@ target 'BGGoodsDetail' do
     # 协议管理者
     pod "BGProtocolManager"
 
-    # 商品详情业务入口协议
-    pod "BGGoodsDetailServiceProtocol"
+    # 订单业务入口协议
+    pod "BGConfirmOrderServiceProtocol"
 
 end
 

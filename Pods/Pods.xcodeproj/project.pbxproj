@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		67AD8AED08D90BBDC7B6B1DA09E63183 /* BGProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 667B25770263ECBF5834D78C40465455 /* BGProtocolManager.m */; };
+		67AD8AED08D90BBDC7B6B1DA09E63183 /* BGProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC981E8979D7CF584D6A1A3CF282D29B /* BGProtocolManager.m */; };
 		77333DCC52EDD3ABCC016C4B19338E3E /* Pods-BGGoodsDetail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA82F898B45E6824CD38A4D09EC7191 /* Pods-BGGoodsDetail-dummy.m */; };
-		89B2F1DD16D240AFEA15FA1EA04FA9A9 /* BGProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D1CE3457CC369C1E2175EA80F3FA04D /* BGProtocolManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		967BDB8E239DF50907E1327062FA4C1F /* BGProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F88C2906D6C59D487E25B285ECC008 /* BGProtocolManager-dummy.m */; };
+		89B2F1DD16D240AFEA15FA1EA04FA9A9 /* BGProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 02237EB6CD3AE3D6847AE5C4F7EA856C /* BGProtocolManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		967BDB8E239DF50907E1327062FA4C1F /* BGProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C73529EE0B8084EEE1EF7D1B6D87D538 /* BGProtocolManager-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,22 +24,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02237EB6CD3AE3D6847AE5C4F7EA856C /* BGProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BGProtocolManager.h; path = BGProtocolManager/BGProtocolManager/BGProtocolManager.h; sourceTree = "<group>"; };
 		0C5B37D68E41207BC7B3871DD27FB684 /* libBGProtocolManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBGProtocolManager.a; path = libBGProtocolManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E79F51D3A8A0A489817AA0F94DEF963 /* Pods-BGGoodsDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BGGoodsDetail.release.xcconfig"; sourceTree = "<group>"; };
-		376E3D7C0497313FF43412EB600D91C4 /* BGProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BGProtocolManager-prefix.pch"; sourceTree = "<group>"; };
 		37D08F8C44B7DC677A165DA3AB416F02 /* Pods-BGGoodsDetail-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BGGoodsDetail-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4DA76683A8FB67B3851DE48F2AC60155 /* BGProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BGProtocolManager.xcconfig; sourceTree = "<group>"; };
-		667B25770263ECBF5834D78C40465455 /* BGProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BGProtocolManager.m; path = BGProtocolManager/BGProtocolManager/BGProtocolManager.m; sourceTree = "<group>"; };
+		4748B75CFB7BCDA69D6DCB4422A3E024 /* BGConfirmOrderServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BGConfirmOrderServiceProtocol.h; path = BGConfirmOrderServiceProtocol/BGConfirmOrderServiceProtocol/BGConfirmOrderServiceProtocol.h; sourceTree = "<group>"; };
+		5C5E9534C7627915FFC8AD2A79CE8AF8 /* BGProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BGProtocolManager-prefix.pch"; sourceTree = "<group>"; };
 		6F1E91F3C363EFA8ED4B4B3BF0C2249D /* Pods-BGGoodsDetail-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGGoodsDetail-resources.sh"; sourceTree = "<group>"; };
-		7D1CE3457CC369C1E2175EA80F3FA04D /* BGProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BGProtocolManager.h; path = BGProtocolManager/BGProtocolManager/BGProtocolManager.h; sourceTree = "<group>"; };
 		876ADE3F8319BD09651259FC9A1D5AAF /* Pods-BGGoodsDetail-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BGGoodsDetail-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97BB8A9F26BFED8CE2B22833482B4EC3 /* Pods-BGGoodsDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BGGoodsDetail.debug.xcconfig"; sourceTree = "<group>"; };
+		A40A4A028792D6003AA2382DA5A5DD11 /* BGProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BGProtocolManager.xcconfig; sourceTree = "<group>"; };
 		A460DFC0F2D80ABB19697D8DD94239B1 /* Pods-BGGoodsDetail-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BGGoodsDetail-frameworks.sh"; sourceTree = "<group>"; };
-		A7F88C2906D6C59D487E25B285ECC008 /* BGProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BGProtocolManager-dummy.m"; sourceTree = "<group>"; };
-		AD0422A60C698939607A3A17791333DC /* BGGoodsDetailServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BGGoodsDetailServiceProtocol.h; path = BGGoodsDetailServiceProtocol/BGGoodsDetailServiceProtocol/BGGoodsDetailServiceProtocol.h; sourceTree = "<group>"; };
 		B7CC939AFA6B2C7D39E5A03862977688 /* libPods-BGGoodsDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BGGoodsDetail.a"; path = "libPods-BGGoodsDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73529EE0B8084EEE1EF7D1B6D87D538 /* BGProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BGProtocolManager-dummy.m"; sourceTree = "<group>"; };
 		CDA82F898B45E6824CD38A4D09EC7191 /* Pods-BGGoodsDetail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BGGoodsDetail-dummy.m"; sourceTree = "<group>"; };
+		FC981E8979D7CF584D6A1A3CF282D29B /* BGProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BGProtocolManager.m; path = BGProtocolManager/BGProtocolManager/BGProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +68,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		0DEFF3CF7BF40BFFF9361F8F101CC12F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC4557CA1DB4B469A6BDDB07D218C055 /* BGConfirmOrderServiceProtocol */,
+				1774D5E2E3AA7D4A7B6A42063769DEF0 /* BGProtocolManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1774D5E2E3AA7D4A7B6A42063769DEF0 /* BGProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				02237EB6CD3AE3D6847AE5C4F7EA856C /* BGProtocolManager.h */,
+				FC981E8979D7CF584D6A1A3CF282D29B /* BGProtocolManager.m */,
+				A0ACB4F401DEA7B725A7772EE62C4EDC /* Support Files */,
+			);
+			name = BGProtocolManager;
+			path = BGProtocolManager;
 			sourceTree = "<group>";
 		};
 		3A87477882F969AFA28BE0BED14A97DD /* Pods-BGGoodsDetail */ = {
@@ -90,46 +110,15 @@
 			path = "Target Support Files/Pods-BGGoodsDetail";
 			sourceTree = "<group>";
 		};
-		5A75162424889051B98FBD8211277453 /* BGProtocolManager */ = {
-			isa = PBXGroup;
-			children = (
-				7D1CE3457CC369C1E2175EA80F3FA04D /* BGProtocolManager.h */,
-				667B25770263ECBF5834D78C40465455 /* BGProtocolManager.m */,
-				839FCA8EB8AB5A2EF8C6E26468484B21 /* Support Files */,
-			);
-			name = BGProtocolManager;
-			path = BGProtocolManager;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				817CBFFA5224908E74D8319675537D88 /* Pods */,
+				0DEFF3CF7BF40BFFF9361F8F101CC12F /* Pods */,
 				961CC94459D5B453392F065A9F958093 /* Products */,
 				0C40A65A342A5882B471F54BCF5E918A /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		817CBFFA5224908E74D8319675537D88 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BF11EBDDDC0F2A0F5BB90BC573DE1425 /* BGGoodsDetailServiceProtocol */,
-				5A75162424889051B98FBD8211277453 /* BGProtocolManager */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		839FCA8EB8AB5A2EF8C6E26468484B21 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4DA76683A8FB67B3851DE48F2AC60155 /* BGProtocolManager.xcconfig */,
-				A7F88C2906D6C59D487E25B285ECC008 /* BGProtocolManager-dummy.m */,
-				376E3D7C0497313FF43412EB600D91C4 /* BGProtocolManager-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/BGProtocolManager";
 			sourceTree = "<group>";
 		};
 		961CC94459D5B453392F065A9F958093 /* Products */ = {
@@ -141,13 +130,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF11EBDDDC0F2A0F5BB90BC573DE1425 /* BGGoodsDetailServiceProtocol */ = {
+		A0ACB4F401DEA7B725A7772EE62C4EDC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD0422A60C698939607A3A17791333DC /* BGGoodsDetailServiceProtocol.h */,
+				A40A4A028792D6003AA2382DA5A5DD11 /* BGProtocolManager.xcconfig */,
+				C73529EE0B8084EEE1EF7D1B6D87D538 /* BGProtocolManager-dummy.m */,
+				5C5E9534C7627915FFC8AD2A79CE8AF8 /* BGProtocolManager-prefix.pch */,
 			);
-			name = BGGoodsDetailServiceProtocol;
-			path = BGGoodsDetailServiceProtocol;
+			name = "Support Files";
+			path = "../Target Support Files/BGProtocolManager";
+			sourceTree = "<group>";
+		};
+		DC4557CA1DB4B469A6BDDB07D218C055 /* BGConfirmOrderServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				4748B75CFB7BCDA69D6DCB4422A3E024 /* BGConfirmOrderServiceProtocol.h */,
+			);
+			name = BGConfirmOrderServiceProtocol;
+			path = BGConfirmOrderServiceProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +265,7 @@
 /* Begin XCBuildConfiguration section */
 		0A8C7B8D0F4E53144B6FE126F22CAA73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DA76683A8FB67B3851DE48F2AC60155 /* BGProtocolManager.xcconfig */;
+			baseConfigurationReference = A40A4A028792D6003AA2382DA5A5DD11 /* BGProtocolManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -438,7 +438,7 @@
 		};
 		A1DA6BE43711777DEA9EA8E552427296 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DA76683A8FB67B3851DE48F2AC60155 /* BGProtocolManager.xcconfig */;
+			baseConfigurationReference = A40A4A028792D6003AA2382DA5A5DD11 /* BGProtocolManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

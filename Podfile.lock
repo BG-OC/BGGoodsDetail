@@ -1,20 +1,20 @@
 PODS:
-  - BGGoodsDetailServiceProtocol (0.0.1)
+  - BGConfirmOrderServiceProtocol (0.0.1)
   - BGProtocolManager (0.0.1)
 
 DEPENDENCIES:
-  - BGGoodsDetailServiceProtocol
+  - BGConfirmOrderServiceProtocol
   - BGProtocolManager
 
 SPEC REPOS:
   https://github.com/BG-OC/BGRepositories.git:
-    - BGGoodsDetailServiceProtocol
+    - BGConfirmOrderServiceProtocol
     - BGProtocolManager
 
 SPEC CHECKSUMS:
-  BGGoodsDetailServiceProtocol: e343e51723a9749b2ba3a5c718787751f38cfa30
+  BGConfirmOrderServiceProtocol: b2bae0ed233a3599c7205cef490644d5b2cbbe4d
   BGProtocolManager: d518b657d0ff76c64dc0f8090aee66ecba7952d8
 
-PODFILE CHECKSUM: 64ddc51f82ddcf4f863aef4b3487da741e40d32b
+PODFILE CHECKSUM: 7be1eb638d263ed43c8e6f350f02280796b91449
 
 COCOAPODS: 1.5.3

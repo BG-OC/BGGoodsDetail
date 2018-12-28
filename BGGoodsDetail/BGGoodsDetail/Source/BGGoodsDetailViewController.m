@@ -8,6 +8,9 @@
 
 #import "BGGoodsDetailViewController.h"
 
+#import <BGProtocolManager/BGProtocolManager.h>
+#import <BGConfirmOrderServiceProtocol/BGConfirmOrderServiceProtocol.h>
+
 @interface BGGoodsDetailViewController ()
 
 @property (nonatomic, copy) NSString *goodsId;
@@ -33,6 +36,7 @@
     [super viewDidLoad];
     
     self.navigationItem.title = self.title;
+    self.view.backgroundColor = [UIColor whiteColor];
     
     [self.view addSubview:self.statusLabel];
     [self.view addSubview:self.buyButton];
@@ -57,6 +61,15 @@
 
 - (void)didClickBuyButton:(UIButton *)button {
     
+    id <BGConfirmOrderServiceProtocol> provide = [BGProtocolManager serviceProvideForProtocol:@protocol(BGConfirmOrderServiceProtocol)];
+    
+    UIViewController *confirmOrderVC = [provide confirmOrderViewControllerWithGoodsId:@"123" complete:^{
+        self.statusLabel.text = @"购买成功";
+    }];
+    
+    if (confirmOrderVC) {
+        [self presentViewController:confirmOrderVC animated:YES completion:nil];
+    }
 }
 
 
